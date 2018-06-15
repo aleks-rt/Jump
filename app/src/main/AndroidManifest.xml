@@ -23,7 +23,11 @@
         <activity android:name=".Settings" />
         <activity android:name=".Lvl" />
         <activity android:name=".Color" />
-        <activity android:name=".Shape"></activity>
+        <activity android:name=".Shape" />
+        <activity android:name=".Lvl1" />
+        <activity android:name=".FirstLvl" />
+        <activity android:name=".Lvl2" />
+        <activity android:name=".Lvl3"></activity>
     </application>
 
 </manifest>
