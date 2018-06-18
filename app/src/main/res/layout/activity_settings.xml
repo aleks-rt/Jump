@@ -4,22 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Settings">
+    tools:context=".Settings"
+    android:background="@drawable/fon1">
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/shape"
-        android:text="shape"
-        android:layout_centerInParent="true"/>
-
-    <Button
+        style="@android:style/Widget.Material.Light.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="shape"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
+
+    <Button
         android:id="@+id/col"
-        android:text="color"
+        style="@android:style/Widget.Material.Light.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shape"
         android:layout_centerHorizontal="true"
-        android:layout_below="@+id/shape"/>
+        android:text="color"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
