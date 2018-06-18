@@ -4,38 +4,55 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Shape">
+    tools:context=".Shape"
+    android:background="@drawable/fon1">
 
-   <Button
-       android:layout_width="wrap_content"
-       android:layout_height="wrap_content"
+   <ImageButton
+       android:layout_width="60dp"
+       android:layout_height="60dp"
        android:layout_alignParentLeft="true"
        android:id="@+id/shape1"
-       android:text="shape 1"
-       android:layout_centerVertical="true"/>
+       android:layout_centerVertical="true"
+       android:src="@mipmap/shape11"
+       />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentRight="true"
         android:id="@+id/shape2"
-        android:text="shape 2"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true"
+        android:src="@mipmap/shape22"
+        />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentLeft="true"
         android:id="@+id/shape3"
-        android:text="shape 3"
-        android:layout_below="@+id/shape1"/>
+        android:layout_below="@+id/shape1"
+        android:src="@mipmap/shape33"
+        />
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageButton
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:layout_alignParentRight="true"
         android:id="@+id/shape4"
-        android:text="shape 4"
-        android:layout_below="@+id/shape2"/>
+        android:layout_below="@+id/shape2"
+        android:src="@mipmap/shape44"
+        />
+
+    <TextView
+        android:id="@+id/shapes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="SHAPES"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40dp"
+        android:textStyle="bold" />
 
 </RelativeLayout>

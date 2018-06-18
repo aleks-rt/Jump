@@ -4,20 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Lvl3">
+    tools:context=".Lvl3"
+    android:background="@drawable/fon1">
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/but1"
-        android:text="but1"
-        android:layout_alignParentLeft="true"/>
+        android:text="ПИУ"
+        android:layout_alignParentLeft="true"
+        android:alpha="0.1"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:id="@+id/but2"
-        android:text="but2"
-        android:layout_alignParentRight="true"/>
+        android:text="ПРЫГ"
+        android:layout_alignParentRight="true"
+        android:alpha="0.1"/>
 
 </RelativeLayout>

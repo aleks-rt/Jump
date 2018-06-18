@@ -18,16 +18,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Menu" />
-        <activity android:name=".Start" />
-        <activity android:name=".Settings" />
-        <activity android:name=".Lvl" />
-        <activity android:name=".Color" />
-        <activity android:name=".Shape" />
-        <activity android:name=".Lvl1" />
-        <activity android:name=".FirstLvl" />
-        <activity android:name=".Lvl2" />
-        <activity android:name=".Lvl3"></activity>
+        <activity android:name=".Menu"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Start"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Settings"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lvl"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Color"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Shape"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lvl1"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lvl2"
+            android:screenOrientation="landscape"/>
+        <activity android:name=".Lvl3"
+            android:screenOrientation="landscape"/>
     </application>
 
 </manifest>
